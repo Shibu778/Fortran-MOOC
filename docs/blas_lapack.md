@@ -1,7 +1,7 @@
 # BLAS and LAPACK
 
 Matrix computations and linear algebra are some of the most basic building
-blocks of may scientific software applications.  Often, the performance of
+blocks of many scientific software applications.  Often, the performance of
 these core algorithms determine the performance and efficiency of your code.
 
 BLAS (Basic Linear Algebra Subprograms) is a library specification that
