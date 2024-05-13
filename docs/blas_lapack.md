@@ -193,7 +193,7 @@ call sgemm('n', 'n', M, N, K, alpha, A, K, B, N, beta, C, M)
 ~~~~
 The first two arguments specify which operation should be performed on the
 matrices `A` and `B` respectively. This can be `'n'` (none), `'t'` (transpose)
-or `'c'` conjugate complex.
+or `'c'` (complex conjugate).
 The sizes of the matrices are given next, `A` is an `M` by `K` matrix, `B` is
 `K` by `N` and `C` is `M` by `N`.  The operation performed is
 $$
